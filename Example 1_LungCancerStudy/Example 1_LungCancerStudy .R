@@ -101,7 +101,7 @@ rm(Median_RawData)
 
 
 #***** Average plot
-### Average of Nanostring positive spike-ins controls
+### Average of Nanostring negative spike-ins controls
 Mean_NegativeControlProbes <- apply(Nano_RawCounts[601:608, ], 2, mean)
 ### Average of Nanostring positive spike-ins controls
 Mean_PositiveControlProbes <- apply(Nano_RawCounts[609:614, ], 2, mean)
